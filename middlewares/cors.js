@@ -1,9 +1,9 @@
 const allowedCors = [ 
   "http://localhost:3000",  
   "http://localhost:3001",
-  "https://frontend-nevebnavern.nomorepartiesco.ru",
+  "https://frontend-nevebnavern.nomorepartiesco.ru",//тута изменил https добавил
   "https://backend-nevebnavern.nomorepartiesco.ru",
-];
+]; 
 
 function cors(req, res, next) {
   const origin = req.headers.origin; 
