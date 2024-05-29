@@ -1,8 +1,8 @@
 const allowedCors = [ 
   "http://localhost:3000",  
   "http://localhost:3001",
-  "frontend-nevebnavern.nomorepartiesco.ru",
-  "backend-nevebnavern.nomorepartiesco.ru",
+  "https://frontend-nevebnavern.nomorepartiesco.ru",
+  "https://backend-nevebnavern.nomorepartiesco.ru",
 ];
 
 function cors(req, res, next) {
