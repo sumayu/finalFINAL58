@@ -9,18 +9,17 @@ const cookieParser = require("cookie-parser");
 const pagesRouter = require("./routes/pages");
 
 const app = express();
-const PORT = (3001);
+const PORT = 3001;
 
 connectToDatabase();
 
 app.use(
   cors,
-  cookieParser(),
-  pagesRouter,
+  cookieParser(), // миддлвар для работы с куки
   bodyParser.json(),
-  express.static(path.join(__dirname, "public")),
-  apiRouter 
-
+  pagesRouter,
+  apiRouter,
+  express.static(path.join(__dirname, "public"))
 );
 
 app.listen(PORT);
