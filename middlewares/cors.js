@@ -1,7 +1,7 @@
 const allowedCors = [ 
   "http://localhost:3000",  
   "http://localhost:3001",
-  "https://frontend-nevebnavern.nomorepartiesco.ru",//тута изменил https добавил
+  "http://frontend-nevebnavern.nomorepartiesco.ru",//тута изменил https добавил
   "https://backend-nevebnavern.nomorepartiesco.ru",
 ]; 
 
